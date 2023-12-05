@@ -29,7 +29,7 @@ app.include_router(auth.router)
 
 @app.get("/") 
 def read_root():
-    return {"Hello": "Naveen"}
+    return {"DTU-locations-api": "API to handle the locations in DTU campus"}
 
 # implement a totalviews method or api
 
